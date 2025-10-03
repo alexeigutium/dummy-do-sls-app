@@ -1,8 +1,8 @@
 spec:
-  name: sample-php
+  name: dontremove-approve-sls
   services:
   - environment_slug: php
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-php.git
-    name: sample-php
+      repo_clone_url: https://github.com/alexeigutium/dummy-do-sls-app.git
+    name: dontremove-approve-sls
